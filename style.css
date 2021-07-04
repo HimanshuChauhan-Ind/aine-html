@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+h3{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: #8c99a5;
+}
+
+h5{
+    margin-top: 2rem;
+}
+
+p{
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+
+input[type='text']{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.userContainer{
+    width: 10vw;
+    height: 100vh;
+    background-color: #fafafa;
+    box-shadow: 10px 0 7px 2px #dbdcde;
+    z-index: 2;
+}
+
+
+
+.userButtons{
+    color: #8c99a5;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    line-height: 15vh;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+.userButtons:hover{
+    background-color: #d2e2ef;
+    border-left: 4px solid #376cc0;
+    cursor: pointer;
+    color: #384b5a;
+}
+
+.logo{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 15vh;
+    border-bottom: 0.3rem solid #f4f5f7;
+}
+
+.interfaceContainer{
+    width: 90vw;
+    height: 100vh;
+    background-color:#f4f5f7;
+}
+
+.blankTop{
+    height: 15vh;
+    background-color: #fafafa;
+}
+
+.uploadContainer{
+    padding-top: 5rem;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.uploadButton{
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+    font-weight: bold;
+}
